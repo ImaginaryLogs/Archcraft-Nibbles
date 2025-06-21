@@ -6,3 +6,4 @@ edition = "2021"
 [dependencies]
 colored = "2.2.0"
 text_io = "0.1.12"
+io = "0.0.2"

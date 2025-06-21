@@ -1,4 +1,4 @@
-use std::{env, fs, path::PathBuf};
+use std::{env, fs::{self, File}, path::PathBuf};
 use text_io::read;
 use colored::Colorize;
 
@@ -12,6 +12,25 @@ fn set_prevdir() -> PathBuf{
     parent_dir.to_path_buf()
 }
 
+struct ConfigAccess{
+    file: File
+}
+
+impl ConfigAccess {
+    fn new(path: &str) -> io::Result<Self> {
+        println!("Entering...");
+        let file = File::open(path)?;
+
+        Ok(ConfigAccess {file})
+    }
+}
+
+impl Drop for ConfigAccess {
+    fn drop(&mut self) {
+        println!("Exiting...");
+    }
+}
+
 /// Parses a user's input file in the media directory to the assembler. Returns the filename and the string
 fn parse_userfile() -> Result<(String, String), String> {
     let filename_user: String = read!("{}\n");
@@ -20,7 +39,6 @@ fn parse_userfile() -> Result<(String, String), String> {
 
     let parent_dir = set_prevdir();
     let path_media = parent_dir.join("media");
-    
     let path_userfile = path_media.join(&filename_path);
     
 
@@ -39,6 +57,9 @@ fn main() {
     
     let lines = contents.split('\n');
     let mut line_count = 0;
+
+
+    
     for line in lines{
         let mut isa_breakdown = line.trim().splitn(2, ' ');
         let opcode = isa_breakdown.next().unwrap();
@@ -52,7 +73,7 @@ fn main() {
             print!("\n");
             continue;
         } else {
-            print!("{}: {}", line_count, opcode.red().bold());
+            print!("{:0>2}: {}", line_count, opcode.red().bold());
             line_count += 1;
         }
 
