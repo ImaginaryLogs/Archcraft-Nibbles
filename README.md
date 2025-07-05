@@ -1,3 +1,4 @@
-# Archcraft-Nibbles
- A nibble (4-bit) computer simulated on logisim evolution.
+# Archcraft-Bytes-to-Blocks
+
+ A 16-bit computer simulated on logisim evolution.
  
