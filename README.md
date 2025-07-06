@@ -1,10 +1,10 @@
-
-
 ![title](./README/Title.png)
 
 ![Static Badge](https://img.shields.io/badge/AY2425--T3-CSARCH2-red)
 
- A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
+A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
+
+For the World File, please check `/game/` to get the template. Each group should have received the specs outlining what to do.
  
 > [!warning]
 > This GitHub Repo is incomplete. It will be updated on a later date.
