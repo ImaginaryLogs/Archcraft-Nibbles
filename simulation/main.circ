@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="3.8.0" version="1.0">
-  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+<project source="3.9.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.9.0(https://github.com/logisim-evolution/).
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -11,7 +11,7 @@
       <a name="appearance" val="classic"/>
     </tool>
     <tool name="Tunnel">
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </tool>
     <tool name="Constant">
       <a name="value" val="0x0"/>
@@ -250,34 +250,34 @@
     <appear>
       <rect fill="none" height="190" rx="10" ry="10" stroke="#000000" width="290" x="50" y="50"/>
       <rect height="170" stroke="#000000" width="270" x="60" y="60"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="15" font-weight="bold" text-anchor="middle" x="192" y="68">16bit CPU</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="270" y="86">MAR</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="270" y="116">MDR</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="281" y="196">PORT</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="76">STATES</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="140" y="96">REGISTERS</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="198">CIR</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="168">PC</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="73" y="96">F</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="73" y="116">D</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="73" y="136">E</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="270" y="76">MEMORY</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="276" y="156">IO</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="146" y="106">AX</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="146" y="136">BX</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="146" y="166">CX</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="146" y="196">DX</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="206" y="106">EX</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="206" y="136">FX</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="206" y="166">R1</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="206" y="196">R2</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="290" y="166">PAYLOAD</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="106" y="136">S0</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="106" y="116">S1</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="106" y="96">S2</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="101" y="156">INSTRUCTION</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="114" y="86">CYCLE</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="84" y="86">PHASE</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="15" font-weight="bold" text-anchor="middle" x="192" y="68">16bit CPU</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="270" y="86">MAR</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="270" y="116">MDR</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="281" y="196">PORT</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="76">STATES</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="140" y="96">REGISTERS</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="198">CIR</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="168">PC</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="73" y="96">F</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="73" y="116">D</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="73" y="136">E</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="270" y="76">MEMORY</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="276" y="156">IO</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="146" y="106">AX</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="146" y="136">BX</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="146" y="166">CX</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="146" y="196">DX</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="206" y="106">EX</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="206" y="136">FX</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="206" y="166">R1</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="206" y="196">R2</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="290" y="166">PAYLOAD</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="106" y="136">S0</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="106" y="116">S1</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="106" y="96">S2</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="101" y="156">INSTRUCTION</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="114" y="86">CYCLE</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="84" y="86">PHASE</text>
       <visible-led height="10" path="/con(380,170)/sequencer(630,220)/LED(440,730)" stroke-width="0" width="10" x="80" y="90"/>
       <visible-led height="10" path="/con(380,170)/sequencer(630,220)/LED(470,730)" stroke-width="0" width="10" x="80" y="110"/>
       <visible-led height="10" path="/con(380,170)/sequencer(630,220)/LED(500,730)" stroke-width="0" width="10" x="80" y="130"/>
@@ -351,124 +351,124 @@
     <comp lib="0" loc="(250,430)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reset"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(250,450)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regin_0_3"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(250,470)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regot_0_3"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(250,630)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reset"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(250,650)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regin_4_7"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(250,670)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regot_4_7"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(260,170)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="aluopcode"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(260,190)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="alu_flags"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(260,210)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regin_0_3"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(260,230)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regin_4_7"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(260,250)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regin_8_9"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(260,270)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regot_0_3"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(260,290)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regot_4_7"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(260,310)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regot_8_9"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(260,50)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="clk"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(280,80)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="sequence_controls"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(390,190)" name="Tunnel">
       <a name="label" val="cmdr"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(390,210)" name="Tunnel">
       <a name="label" val="cmar"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(390,230)" name="Tunnel">
       <a name="label" val="cram"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(390,250)" name="Tunnel">
       <a name="label" val="cdio"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(390,270)" name="Tunnel">
       <a name="label" val="c_pc"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(390,290)" name="Tunnel">
       <a name="label" val="en_const4"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(620,220)" name="Splitter">
       <a name="fanout" val="3"/>
@@ -476,26 +476,26 @@
     </comp>
     <comp lib="0" loc="(620,430)" name="Tunnel">
       <a name="label" val="aluopcode"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(620,450)" name="Tunnel">
       <a name="label" val="regin_8_9"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(620,470)" name="Tunnel">
       <a name="label" val="regot_8_9"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(620,490)" name="Tunnel">
       <a name="label" val="en_const4"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(620,530)" name="Tunnel">
       <a name="label" val="alu_flags"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(620,690)" name="Splitter">
@@ -505,13 +505,13 @@
     </comp>
     <comp lib="0" loc="(640,510)" name="Tunnel">
       <a name="label" val="reset"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(640,630)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="device_out"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
@@ -520,21 +520,21 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="device_in"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(650,280)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cram"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(650,300)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="ramIOUT"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
@@ -543,7 +543,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="ramDIN"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
@@ -552,7 +552,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="ramDOUT"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
     </comp>
@@ -566,7 +566,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="ramCTRL"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="width" val="2"/>
     </comp>
@@ -574,7 +574,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="device_id_port"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="4"/>
@@ -586,30 +586,30 @@
     </comp>
     <comp lib="0" loc="(670,220)" name="Tunnel">
       <a name="label" val="c_pc"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(670,240)" name="Tunnel">
       <a name="label" val="reset"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(670,690)" name="Tunnel">
       <a name="label" val="cdio"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(670,730)" name="Tunnel">
       <a name="label" val="reset"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(680,360)" name="Tunnel">
       <a name="label" val="cmar"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(680,380)" name="Tunnel">
       <a name="label" val="cmdr"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="3"/>
     </comp>
     <comp loc="(380,170)" name="con"/>
@@ -713,7 +713,7 @@
     <a name="simulationFrequency" val="4.0"/>
     <appear>
       <rect height="40" stroke="#000000" width="80" x="40" y="70"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="46" y="76">PC</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="46" y="76">PC</text>
       <rect fill="none" height="60" rx="10" ry="10" stroke="#000000" width="100" x="30" y="60"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(640,280)" stroke-width="0" width="14" x="53" y="80"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(680,280)" stroke-width="0" width="14" x="67" y="80"/>
@@ -904,12 +904,12 @@
     <appear>
       <polygon fill="#ffffff" points="70,130 140,130 150,140 160,130 230,130 230,250 220,260 80,260 70,250" stroke="#000000"/>
       <polygon points="80,140 80,240 90,250 210,250 220,240 220,140 160,140 150,150 140,140" stroke="#000000"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="88" y="146">ALU</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="150" y="156">reg_a</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="150" y="186">reg_b</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="150" y="216">reg_z</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="100" y="186">alu_op</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="100" y="216">status</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="88" y="146">ALU</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="150" y="156">reg_a</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="150" y="186">reg_b</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="150" y="216">reg_z</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="100" y="186">alu_op</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="100" y="216">status</text>
       <visible-hexdigit height="20" path="/Hex Digit Display(540,230)" stroke-width="0" width="14" x="150" y="220"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(580,230)" stroke-width="0" width="14" x="164" y="220"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(620,230)" stroke-width="0" width="14" x="178" y="220"/>
@@ -2148,7 +2148,7 @@
     <appear>
       <rect fill="#ffffff" height="60" rx="10" ry="10" stroke="#000000" width="100" x="40" y="60"/>
       <rect height="40" stroke="#000000" width="80" x="50" y="70"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="56" y="76">IR</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="56" y="76">IR</text>
       <visible-hexdigit height="20" path="/Hex Digit Display(510,120)" stroke-width="0" width="14" x="63" y="80"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(550,120)" stroke-width="0" width="14" x="77" y="80"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(590,120)" stroke-width="0" width="14" x="91" y="80"/>
@@ -2268,7 +2268,7 @@
     <a name="simulationFrequency" val="4.0"/>
     <appear>
       <rect height="40" stroke="#000000" width="80" x="60" y="90"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" font-weight="bold" text-anchor="middle" x="68" y="96">MAR</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" font-weight="bold" text-anchor="middle" x="68" y="96">MAR</text>
       <rect fill="none" height="60" rx="10" ry="10" stroke="#000000" width="100" x="50" y="80"/>
       <visible-hexdigit height="20" label-color="#000000" path="/Hex Digit Display(830,220)" stroke-width="0" width="14" x="70" y="100"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(710,220)" stroke-width="0" width="14" x="112" y="100"/>
@@ -2400,7 +2400,7 @@
     <a name="simulationFrequency" val="4.0"/>
     <appear>
       <rect height="40" stroke="#000000" width="80" x="40" y="80"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" font-weight="bold" text-anchor="middle" x="50" y="86">MDR</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" font-weight="bold" text-anchor="middle" x="50" y="86">MDR</text>
       <rect fill="none" height="60" rx="10" ry="10" stroke="#000000" width="100" x="30" y="70"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(560,240)" stroke-width="0" width="14" x="53" y="90"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(610,240)" stroke-width="0" width="14" x="67" y="90"/>
@@ -2567,7 +2567,7 @@
     <a name="simulationFrequency" val="4.0"/>
     <appear>
       <rect height="40" stroke="#000000" width="80" x="30" y="70"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="38" y="76">REG</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="38" y="76">REG</text>
       <rect fill="none" height="60" rx="10" ry="10" stroke="#000000" width="100" x="20" y="60"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(600,210)" stroke-width="0" width="14" x="43" y="80"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(640,210)" stroke-width="0" width="14" x="57" y="80"/>
@@ -2769,7 +2769,7 @@
     <appear>
       <rect fill="none" height="60" rx="10" ry="10" stroke="#000000" width="100" x="20" y="50"/>
       <rect height="40" stroke="#000000" width="80" x="30" y="60"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="38" y="66">REG</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="38" y="66">REG</text>
       <visible-hexdigit height="20" path="/Hex Digit Display(600,210)" stroke-width="0" width="14" x="42" y="70"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(680,210)" stroke-width="0" width="14" x="70" y="70"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(720,210)" stroke-width="0" width="14" x="84" y="70"/>
@@ -2972,7 +2972,7 @@
     <appear>
       <rect fill="none" height="60" rx="10" ry="10" stroke="#000000" width="100" x="50" y="50"/>
       <rect height="40" stroke="#000000" width="80" x="60" y="60"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="60" y="66">REG</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="60" y="66">REG</text>
       <visible-hexdigit height="20" path="/Hex Digit Display(600,210)" stroke-width="0" width="14" x="73" y="70"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(640,210)" stroke-width="0" width="14" x="87" y="70"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(680,210)" stroke-width="0" width="14" x="101" y="70"/>
@@ -3181,7 +3181,7 @@
     <appear>
       <rect height="40" stroke="#000000" width="80" x="60" y="60"/>
       <rect fill="none" height="60" rx="10" ry="10" stroke="#000000" width="100" x="50" y="50"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="68" y="66">REG</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="68" y="66">REG</text>
       <visible-hexdigit height="20" path="/Hex Digit Display(650,380)" stroke-width="0" width="14" x="73" y="70"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(690,380)" stroke-width="0" width="14" x="87" y="70"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(730,380)" stroke-width="0" width="14" x="101" y="70"/>
@@ -3386,9 +3386,9 @@
     <appear>
       <rect fill="#ffffff" height="100" rx="10" ry="10" stroke="#000000" width="100" x="50" y="50"/>
       <rect height="80" stroke="#000000" width="80" x="60" y="60"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="60" y="66">PORT</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="75" y="106">ID</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="75" y="76">IO</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="60" y="66">PORT</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="75" y="106">ID</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="75" y="76">IO</text>
       <visible-hexdigit height="20" path="/Hex Digit Display(680,120)" stroke-width="0" width="14" x="70" y="80"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(720,120)" stroke-width="0" width="14" x="84" y="80"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(760,120)" stroke-width="0" width="14" x="98" y="80"/>
@@ -4651,10 +4651,10 @@
     <a name="simulationFrequency" val="4.0"/>
     <appear>
       <rect height="60" stroke="#000000" width="120" x="60" y="60"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="end" x="103" y="66">SEQUENCE</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="end" x="103" y="66">SEQUENCE</text>
       <rect fill="none" height="80" rx="10" ry="10" stroke="#000000" width="140" x="50" y="50"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="86">stage</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="106">num</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="86">stage</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="106">num</text>
       <visible-led height="10" path="/LED(660,730)" stroke-width="0" width="10" x="120" y="100"/>
       <visible-led height="10" path="/LED(750,730)" stroke-width="0" width="10" x="140" y="100"/>
       <visible-led height="10" path="/LED(840,730)" stroke-width="0" width="10" x="160" y="100"/>
@@ -5045,11 +5045,11 @@
     <appear>
       <rect fill="#ffffff" height="180" rx="10" ry="10" stroke="#000000" width="100" x="50" y="50"/>
       <rect height="160" stroke="#000000" width="80" x="60" y="60"/>
-      <text dominant-baseline="top" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="60" y="60">CONTROL UNIT</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="106">OPCODE</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="136">OPER.A</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="196">OPER.B</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="166">ADDI</text>
+      <text dominant-baseline="top" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="60" y="60">CONTROL UNIT</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="106">OPCODE</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="136">OPER.A</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="196">OPER.B</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="166">ADDI</text>
       <visible-hexdigit height="20" path="/Hex Digit Display(650,70)" stroke-width="0" width="14" x="110" y="100"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(700,70)" stroke-width="0" width="14" x="110" y="130"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(750,70)" stroke-width="0" width="14" x="110" y="160"/>
@@ -5085,28 +5085,28 @@
     <comp lib="0" loc="(1100,200)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reg1_in"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(1100,220)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reg2_in"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(1100,310)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reg1_ot"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(1100,330)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reg2_ot"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(1140,510)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="aluopcode"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="output" val="true"/>
       <a name="width" val="3"/>
     </comp>
@@ -5119,7 +5119,7 @@
     </comp>
     <comp lib="0" loc="(1150,530)" name="Tunnel">
       <a name="label" val="ALUin"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(1260,160)" name="Constant">
       <a name="value" val="0x0"/>
@@ -5128,7 +5128,7 @@
     <comp lib="0" loc="(1270,190)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="ALUin"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(1290,350)" name="Splitter">
       <a name="appear" val="right"/>
@@ -5167,18 +5167,18 @@
     <comp lib="0" loc="(130,540)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="flags"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(1320,420)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="select_const_b"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(1320,440)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="const_ot"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(1340,270)" name="Splitter">
       <a name="appear" val="right"/>
@@ -5202,25 +5202,25 @@
     </comp>
     <comp lib="0" loc="(1390,240)" name="Tunnel">
       <a name="label" val="regot_0_3"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(1390,260)" name="Tunnel">
       <a name="label" val="regot_4_7"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(140,400)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="regin_8_9"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="output" val="true"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(140,470)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="regot_8_9"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="output" val="true"/>
       <a name="width" val="2"/>
     </comp>
@@ -5239,7 +5239,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="addrOT"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
@@ -5256,47 +5256,47 @@
     </comp>
     <comp lib="0" loc="(1480,130)" name="Tunnel">
       <a name="label" val="regin_0_3"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(1480,150)" name="Tunnel">
       <a name="label" val="regin_4_7"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(150,100)" name="Tunnel">
       <a name="label" val="cmdrIN"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(150,160)" name="Tunnel">
       <a name="label" val="cmarOT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(150,180)" name="Tunnel">
       <a name="label" val="cmarIN"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(150,260)" name="Tunnel">
       <a name="label" val="cramOT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(150,280)" name="Tunnel">
       <a name="label" val="cramIN"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(150,50)" name="Tunnel">
       <a name="label" val="cmdrOT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(150,70)" name="Tunnel">
       <a name="label" val="cmdrRAM"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(160,130)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="cmdr"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="width" val="3"/>
     </comp>
@@ -5304,7 +5304,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="cmar"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="width" val="2"/>
     </comp>
@@ -5312,79 +5312,79 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="cram"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(160,360)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="regin_0_3"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(160,380)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="regin_4_7"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(160,430)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="regot_0_3"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(160,450)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="regot_4_7"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(170,360)" name="Tunnel">
       <a name="label" val="regin_0_3"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(170,380)" name="Tunnel">
       <a name="label" val="regin_4_7"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(170,400)" name="Tunnel">
       <a name="label" val="regin_8_9"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(170,430)" name="Tunnel">
       <a name="label" val="regot_0_3"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(170,450)" name="Tunnel">
       <a name="label" val="regot_4_7"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(170,470)" name="Tunnel">
       <a name="label" val="regot_8_9"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(180,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="flagsIN"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(290,70)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cirRT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(330,130)" name="Splitter">
       <a name="facing" val="north"/>
@@ -5400,59 +5400,59 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="c_pc"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(350,160)" name="Tunnel">
       <a name="label" val="cirRT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(350,180)" name="Tunnel">
       <a name="label" val="cirIn"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(350,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="cirIN"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(350,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="cirRT"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(350,260)" name="Tunnel">
       <a name="label" val="cdioDI"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(350,280)" name="Tunnel">
       <a name="label" val="cdioOT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(350,300)" name="Tunnel">
       <a name="label" val="cdioIn"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(350,330)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="cdio"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(360,100)" name="Tunnel">
       <a name="label" val="cpcIN"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(360,80)" name="Tunnel">
       <a name="label" val="cpcOT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(540,150)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -5461,18 +5461,18 @@
     <comp lib="0" loc="(540,310)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cirRT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(560,1390)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regin_8_9"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(560,1410)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="regot_8_9"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(560,180)" name="Pin">
@@ -5491,17 +5491,17 @@
     <comp lib="0" loc="(570,1750)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reg1_in"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(570,1770)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reg2_in"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(570,1790)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reg1_ot"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(570,180)" name="Splitter">
       <a name="appear" val="right"/>
@@ -5511,12 +5511,12 @@
     <comp lib="0" loc="(570,1810)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reg2_ot"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(570,680)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cpcIN"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(570,70)" name="Splitter">
       <a name="appear" val="right"/>
@@ -5541,72 +5541,72 @@
     <comp lib="0" loc="(570,730)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cpcOT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(570,850)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cmarIN"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(570,870)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cmarOT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(580,1010)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cmdrIN"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(580,1030)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cmdrRAM"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(580,1050)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cmdrOT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(580,1200)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cramIN"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(580,1220)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cramOT"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(580,1590)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="cirIn"/>
-      <a name="labelfont" val="Consolas plain 10"/>
+      <a name="labelfont" val="Dialog plain 10"/>
     </comp>
     <comp lib="0" loc="(580,1990)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="const_ot"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(580,2020)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="select_const_b"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(590,600)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="t4"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(590,620)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="t5"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(590,640)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="t6"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(770,170)" name="Constant">
       <a name="value" val="0x200"/>
@@ -5618,15 +5618,15 @@
     </comp>
     <comp lib="0" loc="(850,270)" name="Tunnel">
       <a name="label" val="t4"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(880,250)" name="Tunnel">
       <a name="label" val="t5"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(900,230)" name="Tunnel">
       <a name="label" val="t6"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="1" loc="(1150,210)" name="OR Gate">
       <a name="size" val="30"/>
@@ -5715,31 +5715,31 @@
     </comp>
     <comp lib="1" loc="(730,350)" name="Buffer">
       <a name="label" val="t0"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="1" loc="(750,330)" name="Buffer">
       <a name="label" val="t1"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="1" loc="(770,310)" name="Buffer">
       <a name="label" val="t2"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="1" loc="(790,290)" name="Buffer">
       <a name="label" val="t3"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="1" loc="(810,270)" name="Buffer">
       <a name="label" val="t4"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="1" loc="(830,250)" name="Buffer">
       <a name="label" val="t5"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="1" loc="(850,230)" name="Buffer">
       <a name="label" val="t6"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="10" loc="(780,180)" name="Buzzer"/>
     <comp lib="2" loc="(1130,510)" name="Priority Encoder"/>
@@ -5795,7 +5795,7 @@
       <a name="halign" val="left"/>
       <a name="text" val="Opcode Area"/>
     </comp>
-    <comp lib="8" loc="(440,424)" name="Text">
+    <comp lib="8" loc="(440,420)" name="Text">
       <a name="font" val="SansSerif bold 10"/>
       <a name="halign" val="left"/>
       <a name="text" val="Decodes the opcode to micrcode, then "/>
@@ -6221,7 +6221,7 @@
     <wire from="(740,1460)" to="(960,1460)"/>
     <wire from="(740,1470)" to="(940,1470)"/>
     <wire from="(740,180)" to="(740,350)"/>
-    <wire from="(740,180)" to="(780,180)"/>
+    <wire from="(740,180)" to="(770,180)"/>
     <wire from="(740,350)" to="(740,720)"/>
     <wire from="(740,720)" to="(740,830)"/>
     <wire from="(740,960)" to="(920,960)"/>
@@ -6361,13 +6361,13 @@
     <appear>
       <rect fill="none" height="100" rx="10" ry="10" stroke="#000000" width="360" x="70" y="60"/>
       <rect height="80" stroke="#000000" width="340" x="80" y="70"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="15" text-anchor="start" x="80" y="78">Memory</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="110" y="116">Address</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="190" y="86">Data In</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="193" y="116">Data Out</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="301" y="106">Read</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="304" y="126">Write</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="295" y="86">Operation</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="15" text-anchor="start" x="80" y="78">Memory</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="110" y="116">Address</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="190" y="86">Data In</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="193" y="116">Data Out</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="301" y="106">Read</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="304" y="126">Write</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="295" y="86">Operation</text>
       <visible-hexdigit height="20" path="/Hex Digit Display(380,100)" stroke-width="0" width="14" x="90" y="120"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(420,100)" stroke-width="0" width="14" x="110" y="120"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(430,360)" stroke-width="0" width="14" x="170" y="90"/>
@@ -6395,32 +6395,32 @@
     <comp lib="0" loc="(250,150)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="clkIN"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(260,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="contRM"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(270,180)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="addrIN"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(270,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="ramOUT"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(270,270)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="dataIN"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
     </comp>
@@ -6450,7 +6450,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="dataOUT"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
@@ -6459,7 +6459,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="ramIN"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
@@ -6468,7 +6468,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="addrRAM"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="8"/>
@@ -6477,14 +6477,14 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="writeRAM"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(420,150)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="clkRAM"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(420,410)" name="Splitter">
@@ -6620,10 +6620,10 @@
     <a name="simulationFrequency" val="4.0"/>
     <appear>
       <rect fill="none" height="180" rx="10" ry="10" stroke="#000000" width="40" x="50" y="40"/>
-      <text dominant-baseline="central" font-family="Consolas" font-size="10" text-anchor="middle" x="70" y="106">4bit</text>
-      <text dominant-baseline="central" font-family="Consolas" font-size="10" text-anchor="middle" x="70" y="126">Carry</text>
-      <text dominant-baseline="central" font-family="Consolas" font-size="10" text-anchor="middle" x="70" y="146">Look</text>
-      <text dominant-baseline="central" font-family="Consolas" font-size="10" text-anchor="middle" x="70" y="166">Ahead</text>
+      <text dominant-baseline="central" font-family="Dialog" font-size="10" text-anchor="middle" x="70" y="106">4bit</text>
+      <text dominant-baseline="central" font-family="Dialog" font-size="10" text-anchor="middle" x="70" y="126">Carry</text>
+      <text dominant-baseline="central" font-family="Dialog" font-size="10" text-anchor="middle" x="70" y="146">Look</text>
+      <text dominant-baseline="central" font-family="Dialog" font-size="10" text-anchor="middle" x="70" y="166">Ahead</text>
       <circ-anchor facing="east" x="90" y="70"/>
       <circ-port dir="in" pin="230,1080" x="50" y="180"/>
       <circ-port dir="in" pin="230,1100" x="50" y="200"/>
@@ -7108,7 +7108,7 @@
     <appear>
       <rect fill="#ffffff" height="70" rx="10" ry="10" stroke="#000000" width="40" x="50" y="50"/>
       <rect height="50" stroke="#000000" width="20" x="60" y="60"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="middle" x="70" y="85">+/-</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="middle" x="70" y="85">+/-</text>
       <circ-anchor facing="east" x="90" y="60"/>
       <circ-port dir="in" pin="380,170" x="50" y="60"/>
       <circ-port dir="in" pin="380,200" x="50" y="100"/>
@@ -7322,7 +7322,7 @@
     <a name="simulationFrequency" val="4.0"/>
     <appear>
       <rect fill="none" height="40" rx="10" ry="10" stroke="#000000" width="40" x="50" y="50"/>
-      <text dominant-baseline="central" font-family="Consolas" font-size="10" text-anchor="middle" x="69" y="70">p+</text>
+      <text dominant-baseline="central" font-family="Dialog" font-size="10" text-anchor="middle" x="69" y="70">p+</text>
       <circ-anchor facing="east" x="90" y="60"/>
       <circ-port dir="in" pin="350,290" x="50" y="60"/>
       <circ-port dir="in" pin="350,330" x="50" y="80"/>
@@ -7495,9 +7495,9 @@
     <appear>
       <rect fill="#ffffff" height="120" rx="10" ry="10" stroke="#000000" width="100" x="50" y="50"/>
       <rect height="100" stroke="#000000" width="80" x="60" y="60"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="60" y="126">MDR</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="60" y="86">MAR</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="60" y="66">Memory Unit</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="60" y="126">MDR</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="60" y="86">MAR</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="60" y="66">Memory Unit</text>
       <visible-hexdigit height="20" path="/memory_data_register(430,360)/Hex Digit Display(560,240)" stroke-width="0" width="14" x="70" y="130"/>
       <visible-hexdigit height="20" path="/memory_data_register(430,360)/Hex Digit Display(610,240)" stroke-width="0" width="14" x="84" y="130"/>
       <visible-hexdigit height="20" path="/memory_data_register(430,360)/Hex Digit Display(660,240)" stroke-width="0" width="14" x="98" y="130"/>
@@ -7558,7 +7558,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="ramIOUT"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
@@ -7567,7 +7567,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="ramDIN"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
@@ -7576,7 +7576,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="ramDOUT"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
     </comp>
@@ -7612,7 +7612,7 @@
     <appear>
       <rect fill="#ffffff" height="60" rx="10" ry="10" stroke="#000000" width="100" x="50" y="50"/>
       <rect height="40" stroke="#000000" width="80" x="60" y="60"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="60" y="66">reg</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="60" y="66">reg</text>
       <visible-hexdigit height="20" path="/Hex Digit Display(600,210)" stroke-width="0" width="14" x="70" y="70"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(640,210)" stroke-width="0" width="14" x="84" y="70"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(680,210)" stroke-width="0" width="14" x="98" y="70"/>
@@ -7742,7 +7742,7 @@
     <appear>
       <rect fill="#ffffff" height="80" rx="10" ry="10" stroke="#000000" width="100" x="50" y="40"/>
       <rect height="60" stroke="#000000" width="80" x="60" y="50"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="60" y="56">register</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="60" y="56">register</text>
       <visible-hexdigit height="20" path="/Hex Digit Display(600,210)" stroke-width="0" width="14" x="70" y="70"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(640,210)" stroke-width="0" width="14" x="84" y="70"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(680,210)" stroke-width="0" width="14" x="98" y="70"/>
@@ -7869,7 +7869,7 @@
     <appear>
       <rect fill="none" height="40" rx="10" ry="10" stroke="#000000" width="40" x="50" y="50"/>
       <rect height="20" stroke="#000000" width="20" x="60" y="60"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="62" y="71">-/0</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="62" y="71">-/0</text>
       <circ-anchor facing="east" x="90" y="60"/>
       <circ-port dir="in" pin="250,380" x="50" y="70"/>
       <circ-port dir="out" pin="350,470" x="90" y="60"/>
@@ -7932,11 +7932,11 @@
     <appear>
       <rect fill="#ffffff" height="170" rx="10" ry="10" stroke="#000000" width="100" x="50" y="40"/>
       <rect height="150" stroke="#000000" width="80" x="60" y="50"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="60" y="56">registers</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="76">reg0</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="106">reg1</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="136">reg2</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="166">reg3</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="60" y="56">registers</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="76">reg0</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="106">reg1</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="136">reg2</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="166">reg3</text>
       <visible-hexdigit height="20" path="/reg_left_2(520,200)/Hex Digit Display(600,210)" stroke-width="0" width="14" x="70" y="80"/>
       <visible-hexdigit height="20" path="/reg_left_2(520,200)/Hex Digit Display(640,210)" stroke-width="0" width="14" x="84" y="80"/>
       <visible-hexdigit height="20" path="/reg_left_2(520,200)/Hex Digit Display(680,210)" stroke-width="0" width="14" x="98" y="80"/>
@@ -8076,13 +8076,13 @@
     <appear>
       <rect fill="#ffffff" height="190" rx="10" ry="10" stroke="#000000" width="100" x="50" y="50"/>
       <rect height="170" stroke="#000000" width="80" x="60" y="60"/>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="110" y="196">op</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="196">status</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="76">reg_y</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="166">reg_z</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="106">opr_a</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="70" y="136">opr_b</text>
-      <text dominant-baseline="central" fill="#ffffff" font-family="Consolas" font-size="10" text-anchor="start" x="60" y="66">alu</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="110" y="196">op</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="196">status</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="76">reg_y</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="166">reg_z</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="106">opr_a</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="70" y="136">opr_b</text>
+      <text dominant-baseline="central" fill="#ffffff" font-family="Dialog" font-size="10" text-anchor="start" x="60" y="66">alu</text>
       <visible-hexdigit height="20" path="/reg_left_2(530,230)/Hex Digit Display(600,210)" stroke-width="0" width="14" x="70" y="80"/>
       <visible-hexdigit height="20" path="/reg_left_2(530,230)/Hex Digit Display(640,210)" stroke-width="0" width="14" x="84" y="80"/>
       <visible-hexdigit height="20" path="/reg_left_2(530,230)/Hex Digit Display(680,210)" stroke-width="0" width="14" x="98" y="80"/>
@@ -8153,7 +8153,7 @@
     <comp lib="0" loc="(260,510)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="enZ"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="0" loc="(560,280)" name="Pull Resistor"/>
     <comp lib="0" loc="(680,280)" name="Pull Resistor"/>
@@ -8182,7 +8182,7 @@
     </comp>
     <comp lib="0" loc="(740,330)" name="Tunnel">
       <a name="label" val="enZ"/>
-      <a name="labelfont" val="Consolas bold 10"/>
+      <a name="labelfont" val="Dialog bold 10"/>
     </comp>
     <comp lib="2" loc="(680,270)" name="Multiplexer">
       <a name="facing" val="south"/>
@@ -8244,6 +8244,601 @@
     <a name="circuit" val="program_counter_2"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="4.0"/>
+  </circuit>
+  <circuit name="control_matrix">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="control_matrix"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="4.0"/>
+    <comp lib="0" loc="(1150,530)" name="Tunnel">
+      <a name="label" val="ALUin"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+    </comp>
+    <comp lib="0" loc="(560,1390)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="regin_8_9"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(560,1410)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="regot_8_9"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(570,1340)" name="Splitter"/>
+    <comp lib="0" loc="(570,1470)" name="Splitter"/>
+    <comp lib="0" loc="(570,1750)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="reg1_in"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+    </comp>
+    <comp lib="0" loc="(570,1770)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="reg2_in"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+    </comp>
+    <comp lib="0" loc="(570,1790)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="reg1_ot"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+    </comp>
+    <comp lib="0" loc="(570,1810)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="reg2_ot"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+    </comp>
+    <comp lib="0" loc="(570,680)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cpcIN"/>
+      <a name="labelfont" val="Dialog plain 10"/>
+    </comp>
+    <comp lib="0" loc="(570,730)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cpcOT"/>
+      <a name="labelfont" val="Dialog plain 10"/>
+    </comp>
+    <comp lib="0" loc="(570,850)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cmarIN"/>
+      <a name="labelfont" val="Dialog plain 10"/>
+    </comp>
+    <comp lib="0" loc="(570,870)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cmarOT"/>
+      <a name="labelfont" val="Dialog plain 10"/>
+    </comp>
+    <comp lib="0" loc="(580,1010)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cmdrIN"/>
+      <a name="labelfont" val="Dialog plain 10"/>
+    </comp>
+    <comp lib="0" loc="(580,1030)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cmdrRAM"/>
+      <a name="labelfont" val="Dialog plain 10"/>
+    </comp>
+    <comp lib="0" loc="(580,1050)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cmdrOT"/>
+      <a name="labelfont" val="Dialog plain 10"/>
+    </comp>
+    <comp lib="0" loc="(580,1200)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cramIN"/>
+      <a name="labelfont" val="Dialog plain 10"/>
+    </comp>
+    <comp lib="0" loc="(580,1220)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cramOT"/>
+      <a name="labelfont" val="Dialog plain 10"/>
+    </comp>
+    <comp lib="0" loc="(580,1590)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cirIn"/>
+      <a name="labelfont" val="Dialog plain 10"/>
+    </comp>
+    <comp lib="0" loc="(580,1990)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="const_ot"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+    </comp>
+    <comp lib="0" loc="(580,2020)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="select_const_b"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+    </comp>
+    <comp lib="0" loc="(590,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="t4"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+    </comp>
+    <comp lib="0" loc="(590,620)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="t5"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+    </comp>
+    <comp lib="0" loc="(590,640)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="t6"/>
+      <a name="labelfont" val="Dialog bold 10"/>
+    </comp>
+    <comp lib="1" loc="(690,730)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(690,800)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="4"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(710,1060)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(710,1120)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="4"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(710,1190)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(710,1310)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="3"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(710,1390)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="3"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(710,1460)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="3"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(710,980)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="4"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(720,890)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(720,920)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(730,1520)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="3"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(730,1650)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(730,1710)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="5"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(730,1820)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="4"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(730,1910)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="4"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(730,1950)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="3"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="2" loc="(1130,510)" name="Priority Encoder"/>
+    <comp lib="2" loc="(670,400)" name="Decoder">
+      <a name="select" val="4"/>
+      <a name="selloc" val="tr"/>
+    </comp>
+    <comp lib="8" loc="(440,405)" name="Text">
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="Opcode Area"/>
+    </comp>
+    <comp lib="8" loc="(440,420)" name="Text">
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="Decodes the opcode to micrcode, then "/>
+    </comp>
+    <comp lib="8" loc="(440,445)" name="Text">
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="halign" val="left"/>
+      <a name="text" val="schedules execution by the FDS cycle"/>
+    </comp>
+    <comp loc="(690,1030)" name="controlled_timer"/>
+    <comp loc="(690,1100)" name="controlled_timer"/>
+    <comp loc="(690,1170)" name="controlled_timer"/>
+    <comp loc="(690,1240)" name="controlled_timer"/>
+    <comp loc="(690,1320)" name="controlled_timer"/>
+    <comp loc="(690,1380)" name="controlled_timer"/>
+    <comp loc="(690,1450)" name="controlled_timer"/>
+    <comp loc="(690,1510)" name="controlled_timer"/>
+    <comp loc="(690,1590)" name="controlled_timer"/>
+    <comp loc="(690,1670)" name="controlled_timer"/>
+    <comp loc="(690,1740)" name="controlled_timer"/>
+    <comp loc="(690,1810)" name="controlled_timer"/>
+    <comp loc="(690,1880)" name="controlled_timer"/>
+    <comp loc="(690,1950)" name="controlled_timer"/>
+    <comp loc="(690,2020)" name="controlled_timer"/>
+    <comp loc="(690,800)" name="controlled_timer"/>
+    <comp loc="(690,900)" name="controlled_timer"/>
+    <comp loc="(690,970)" name="controlled_timer"/>
+    <wire from="(1130,510)" to="(1140,510)"/>
+    <wire from="(1130,520)" to="(1140,520)"/>
+    <wire from="(1140,520)" to="(1140,530)"/>
+    <wire from="(1140,530)" to="(1150,530)"/>
+    <wire from="(560,1390)" to="(570,1390)"/>
+    <wire from="(560,1410)" to="(570,1410)"/>
+    <wire from="(570,1340)" to="(570,1390)"/>
+    <wire from="(570,1410)" to="(570,1470)"/>
+    <wire from="(570,1750)" to="(580,1750)"/>
+    <wire from="(570,1770)" to="(590,1770)"/>
+    <wire from="(570,1790)" to="(590,1790)"/>
+    <wire from="(570,1810)" to="(580,1810)"/>
+    <wire from="(570,680)" to="(800,680)"/>
+    <wire from="(570,730)" to="(690,730)"/>
+    <wire from="(570,850)" to="(590,850)"/>
+    <wire from="(570,870)" to="(590,870)"/>
+    <wire from="(580,1010)" to="(590,1010)"/>
+    <wire from="(580,1030)" to="(650,1030)"/>
+    <wire from="(580,1050)" to="(590,1050)"/>
+    <wire from="(580,1200)" to="(590,1200)"/>
+    <wire from="(580,1220)" to="(590,1220)"/>
+    <wire from="(580,1590)" to="(650,1590)"/>
+    <wire from="(580,1670)" to="(580,1750)"/>
+    <wire from="(580,1670)" to="(650,1670)"/>
+    <wire from="(580,1810)" to="(580,1880)"/>
+    <wire from="(580,1880)" to="(650,1880)"/>
+    <wire from="(580,1990)" to="(590,1990)"/>
+    <wire from="(580,2020)" to="(650,2020)"/>
+    <wire from="(590,1050)" to="(590,1100)"/>
+    <wire from="(590,1100)" to="(650,1100)"/>
+    <wire from="(590,1170)" to="(590,1200)"/>
+    <wire from="(590,1170)" to="(650,1170)"/>
+    <wire from="(590,1220)" to="(590,1240)"/>
+    <wire from="(590,1240)" to="(650,1240)"/>
+    <wire from="(590,1320)" to="(650,1320)"/>
+    <wire from="(590,1330)" to="(590,1380)"/>
+    <wire from="(590,1380)" to="(650,1380)"/>
+    <wire from="(590,1450)" to="(650,1450)"/>
+    <wire from="(590,1460)" to="(590,1510)"/>
+    <wire from="(590,1510)" to="(650,1510)"/>
+    <wire from="(590,1740)" to="(590,1770)"/>
+    <wire from="(590,1740)" to="(650,1740)"/>
+    <wire from="(590,1790)" to="(590,1810)"/>
+    <wire from="(590,1810)" to="(650,1810)"/>
+    <wire from="(590,1950)" to="(590,1990)"/>
+    <wire from="(590,1950)" to="(650,1950)"/>
+    <wire from="(590,600)" to="(620,600)"/>
+    <wire from="(590,620)" to="(610,620)"/>
+    <wire from="(590,640)" to="(600,640)"/>
+    <wire from="(590,800)" to="(590,850)"/>
+    <wire from="(590,800)" to="(650,800)"/>
+    <wire from="(590,870)" to="(590,900)"/>
+    <wire from="(590,900)" to="(650,900)"/>
+    <wire from="(590,970)" to="(590,1010)"/>
+    <wire from="(590,970)" to="(650,970)"/>
+    <wire from="(600,1000)" to="(600,1060)"/>
+    <wire from="(600,1000)" to="(650,1000)"/>
+    <wire from="(600,1060)" to="(600,1130)"/>
+    <wire from="(600,1060)" to="(650,1060)"/>
+    <wire from="(600,1130)" to="(600,1200)"/>
+    <wire from="(600,1130)" to="(650,1130)"/>
+    <wire from="(600,1200)" to="(600,1270)"/>
+    <wire from="(600,1200)" to="(650,1200)"/>
+    <wire from="(600,1270)" to="(600,1350)"/>
+    <wire from="(600,1270)" to="(650,1270)"/>
+    <wire from="(600,1350)" to="(600,1410)"/>
+    <wire from="(600,1350)" to="(650,1350)"/>
+    <wire from="(600,1410)" to="(600,1480)"/>
+    <wire from="(600,1410)" to="(650,1410)"/>
+    <wire from="(600,1480)" to="(600,1540)"/>
+    <wire from="(600,1480)" to="(650,1480)"/>
+    <wire from="(600,1540)" to="(600,1620)"/>
+    <wire from="(600,1540)" to="(650,1540)"/>
+    <wire from="(600,1620)" to="(600,1700)"/>
+    <wire from="(600,1620)" to="(650,1620)"/>
+    <wire from="(600,1700)" to="(600,1770)"/>
+    <wire from="(600,1700)" to="(650,1700)"/>
+    <wire from="(600,1770)" to="(600,1840)"/>
+    <wire from="(600,1770)" to="(650,1770)"/>
+    <wire from="(600,1840)" to="(600,1910)"/>
+    <wire from="(600,1840)" to="(650,1840)"/>
+    <wire from="(600,1910)" to="(600,1980)"/>
+    <wire from="(600,1910)" to="(650,1910)"/>
+    <wire from="(600,1980)" to="(600,2050)"/>
+    <wire from="(600,1980)" to="(650,1980)"/>
+    <wire from="(600,2050)" to="(650,2050)"/>
+    <wire from="(600,380)" to="(670,380)"/>
+    <wire from="(600,640)" to="(600,830)"/>
+    <wire from="(600,830)" to="(600,930)"/>
+    <wire from="(600,830)" to="(650,830)"/>
+    <wire from="(600,930)" to="(600,1000)"/>
+    <wire from="(600,930)" to="(650,930)"/>
+    <wire from="(610,1050)" to="(610,1120)"/>
+    <wire from="(610,1050)" to="(650,1050)"/>
+    <wire from="(610,1120)" to="(610,1190)"/>
+    <wire from="(610,1120)" to="(650,1120)"/>
+    <wire from="(610,1190)" to="(610,1260)"/>
+    <wire from="(610,1190)" to="(650,1190)"/>
+    <wire from="(610,1260)" to="(610,1340)"/>
+    <wire from="(610,1260)" to="(650,1260)"/>
+    <wire from="(610,1340)" to="(610,1400)"/>
+    <wire from="(610,1340)" to="(650,1340)"/>
+    <wire from="(610,1400)" to="(610,1470)"/>
+    <wire from="(610,1400)" to="(650,1400)"/>
+    <wire from="(610,1470)" to="(610,1530)"/>
+    <wire from="(610,1470)" to="(650,1470)"/>
+    <wire from="(610,1530)" to="(610,1610)"/>
+    <wire from="(610,1530)" to="(650,1530)"/>
+    <wire from="(610,1610)" to="(610,1690)"/>
+    <wire from="(610,1610)" to="(650,1610)"/>
+    <wire from="(610,1690)" to="(610,1760)"/>
+    <wire from="(610,1690)" to="(650,1690)"/>
+    <wire from="(610,1760)" to="(610,1830)"/>
+    <wire from="(610,1760)" to="(650,1760)"/>
+    <wire from="(610,1830)" to="(610,1900)"/>
+    <wire from="(610,1830)" to="(650,1830)"/>
+    <wire from="(610,1900)" to="(610,1970)"/>
+    <wire from="(610,1900)" to="(650,1900)"/>
+    <wire from="(610,1970)" to="(610,2040)"/>
+    <wire from="(610,1970)" to="(650,1970)"/>
+    <wire from="(610,2040)" to="(650,2040)"/>
+    <wire from="(610,620)" to="(610,820)"/>
+    <wire from="(610,820)" to="(610,920)"/>
+    <wire from="(610,820)" to="(650,820)"/>
+    <wire from="(610,920)" to="(610,990)"/>
+    <wire from="(610,920)" to="(650,920)"/>
+    <wire from="(610,990)" to="(610,1050)"/>
+    <wire from="(610,990)" to="(650,990)"/>
+    <wire from="(620,1040)" to="(620,1110)"/>
+    <wire from="(620,1040)" to="(650,1040)"/>
+    <wire from="(620,1110)" to="(620,1180)"/>
+    <wire from="(620,1110)" to="(650,1110)"/>
+    <wire from="(620,1180)" to="(620,1250)"/>
+    <wire from="(620,1180)" to="(650,1180)"/>
+    <wire from="(620,1250)" to="(620,1330)"/>
+    <wire from="(620,1250)" to="(650,1250)"/>
+    <wire from="(620,1330)" to="(620,1390)"/>
+    <wire from="(620,1330)" to="(650,1330)"/>
+    <wire from="(620,1390)" to="(620,1460)"/>
+    <wire from="(620,1390)" to="(650,1390)"/>
+    <wire from="(620,1460)" to="(620,1520)"/>
+    <wire from="(620,1460)" to="(650,1460)"/>
+    <wire from="(620,1520)" to="(620,1600)"/>
+    <wire from="(620,1520)" to="(650,1520)"/>
+    <wire from="(620,1600)" to="(620,1680)"/>
+    <wire from="(620,1600)" to="(650,1600)"/>
+    <wire from="(620,1680)" to="(620,1750)"/>
+    <wire from="(620,1680)" to="(650,1680)"/>
+    <wire from="(620,1750)" to="(620,1820)"/>
+    <wire from="(620,1750)" to="(650,1750)"/>
+    <wire from="(620,1820)" to="(620,1890)"/>
+    <wire from="(620,1820)" to="(650,1820)"/>
+    <wire from="(620,1890)" to="(620,1960)"/>
+    <wire from="(620,1890)" to="(650,1890)"/>
+    <wire from="(620,1960)" to="(620,2030)"/>
+    <wire from="(620,1960)" to="(650,1960)"/>
+    <wire from="(620,2030)" to="(650,2030)"/>
+    <wire from="(620,600)" to="(620,810)"/>
+    <wire from="(620,810)" to="(620,910)"/>
+    <wire from="(620,810)" to="(650,810)"/>
+    <wire from="(620,910)" to="(620,980)"/>
+    <wire from="(620,910)" to="(650,910)"/>
+    <wire from="(620,980)" to="(620,1040)"/>
+    <wire from="(620,980)" to="(650,980)"/>
+    <wire from="(670,380)" to="(670,400)"/>
+    <wire from="(690,1000)" to="(710,1000)"/>
+    <wire from="(690,1040)" to="(860,1040)"/>
+    <wire from="(690,1050)" to="(700,1050)"/>
+    <wire from="(690,1120)" to="(710,1120)"/>
+    <wire from="(690,1130)" to="(700,1130)"/>
+    <wire from="(690,1190)" to="(710,1190)"/>
+    <wire from="(690,1250)" to="(840,1250)"/>
+    <wire from="(690,1270)" to="(760,1270)"/>
+    <wire from="(690,1320)" to="(700,1320)"/>
+    <wire from="(690,1350)" to="(760,1350)"/>
+    <wire from="(690,1390)" to="(710,1390)"/>
+    <wire from="(690,1410)" to="(780,1410)"/>
+    <wire from="(690,1460)" to="(710,1460)"/>
+    <wire from="(690,1480)" to="(780,1480)"/>
+    <wire from="(690,1530)" to="(710,1530)"/>
+    <wire from="(690,1540)" to="(800,1540)"/>
+    <wire from="(690,1620)" to="(780,1620)"/>
+    <wire from="(690,1670)" to="(710,1670)"/>
+    <wire from="(690,1690)" to="(710,1690)"/>
+    <wire from="(690,1810)" to="(710,1810)"/>
+    <wire from="(690,1880)" to="(880,1880)"/>
+    <wire from="(690,1890)" to="(710,1890)"/>
+    <wire from="(690,1950)" to="(730,1950)"/>
+    <wire from="(690,2020)" to="(860,2020)"/>
+    <wire from="(690,410)" to="(820,410)"/>
+    <wire from="(690,420)" to="(840,420)"/>
+    <wire from="(690,430)" to="(860,430)"/>
+    <wire from="(690,440)" to="(880,440)"/>
+    <wire from="(690,450)" to="(900,450)"/>
+    <wire from="(690,460)" to="(920,460)"/>
+    <wire from="(690,480)" to="(940,480)"/>
+    <wire from="(690,490)" to="(960,490)"/>
+    <wire from="(690,500)" to="(980,500)"/>
+    <wire from="(690,510)" to="(1090,510)"/>
+    <wire from="(690,520)" to="(1090,520)"/>
+    <wire from="(690,530)" to="(1090,530)"/>
+    <wire from="(690,830)" to="(740,830)"/>
+    <wire from="(690,910)" to="(700,910)"/>
+    <wire from="(690,920)" to="(720,920)"/>
+    <wire from="(690,930)" to="(710,930)"/>
+    <wire from="(690,980)" to="(710,980)"/>
+    <wire from="(700,1050)" to="(700,1060)"/>
+    <wire from="(700,1060)" to="(710,1060)"/>
+    <wire from="(700,1130)" to="(700,1150)"/>
+    <wire from="(700,1150)" to="(780,1150)"/>
+    <wire from="(700,1310)" to="(700,1320)"/>
+    <wire from="(700,1310)" to="(710,1310)"/>
+    <wire from="(700,890)" to="(700,910)"/>
+    <wire from="(700,890)" to="(720,890)"/>
+    <wire from="(710,1000)" to="(710,1020)"/>
+    <wire from="(710,1020)" to="(760,1020)"/>
+    <wire from="(710,1520)" to="(710,1530)"/>
+    <wire from="(710,1520)" to="(730,1520)"/>
+    <wire from="(710,1650)" to="(710,1670)"/>
+    <wire from="(710,1650)" to="(730,1650)"/>
+    <wire from="(710,1690)" to="(710,1710)"/>
+    <wire from="(710,1710)" to="(730,1710)"/>
+    <wire from="(710,1810)" to="(710,1820)"/>
+    <wire from="(710,1820)" to="(730,1820)"/>
+    <wire from="(710,1890)" to="(710,1910)"/>
+    <wire from="(710,1910)" to="(730,1910)"/>
+    <wire from="(710,930)" to="(710,940)"/>
+    <wire from="(710,940)" to="(760,940)"/>
+    <wire from="(720,720)" to="(740,720)"/>
+    <wire from="(720,740)" to="(760,740)"/>
+    <wire from="(720,780)" to="(920,780)"/>
+    <wire from="(720,790)" to="(900,790)"/>
+    <wire from="(720,810)" to="(860,810)"/>
+    <wire from="(720,820)" to="(840,820)"/>
+    <wire from="(740,1000)" to="(840,1000)"/>
+    <wire from="(740,1050)" to="(920,1050)"/>
+    <wire from="(740,1070)" to="(860,1070)"/>
+    <wire from="(740,1100)" to="(920,1100)"/>
+    <wire from="(740,1110)" to="(900,1110)"/>
+    <wire from="(740,1130)" to="(860,1130)"/>
+    <wire from="(740,1140)" to="(840,1140)"/>
+    <wire from="(740,1180)" to="(920,1180)"/>
+    <wire from="(740,1200)" to="(860,1200)"/>
+    <wire from="(740,1300)" to="(980,1300)"/>
+    <wire from="(740,1310)" to="(960,1310)"/>
+    <wire from="(740,1320)" to="(940,1320)"/>
+    <wire from="(740,1380)" to="(980,1380)"/>
+    <wire from="(740,1390)" to="(960,1390)"/>
+    <wire from="(740,1400)" to="(940,1400)"/>
+    <wire from="(740,1450)" to="(980,1450)"/>
+    <wire from="(740,1460)" to="(960,1460)"/>
+    <wire from="(740,1470)" to="(940,1470)"/>
+    <wire from="(740,720)" to="(740,830)"/>
+    <wire from="(740,960)" to="(920,960)"/>
+    <wire from="(740,970)" to="(900,970)"/>
+    <wire from="(740,990)" to="(860,990)"/>
+    <wire from="(750,880)" to="(840,880)"/>
+    <wire from="(750,900)" to="(900,900)"/>
+    <wire from="(750,910)" to="(860,910)"/>
+    <wire from="(750,930)" to="(920,930)"/>
+    <wire from="(760,1020)" to="(760,1270)"/>
+    <wire from="(760,1270)" to="(760,1350)"/>
+    <wire from="(760,1510)" to="(980,1510)"/>
+    <wire from="(760,1520)" to="(960,1520)"/>
+    <wire from="(760,1530)" to="(940,1530)"/>
+    <wire from="(760,1640)" to="(880,1640)"/>
+    <wire from="(760,1660)" to="(820,1660)"/>
+    <wire from="(760,1690)" to="(940,1690)"/>
+    <wire from="(760,1700)" to="(900,1700)"/>
+    <wire from="(760,1710)" to="(960,1710)"/>
+    <wire from="(760,1720)" to="(840,1720)"/>
+    <wire from="(760,1730)" to="(980,1730)"/>
+    <wire from="(760,1800)" to="(940,1800)"/>
+    <wire from="(760,1810)" to="(960,1810)"/>
+    <wire from="(760,1830)" to="(980,1830)"/>
+    <wire from="(760,1840)" to="(920,1840)"/>
+    <wire from="(760,1890)" to="(960,1890)"/>
+    <wire from="(760,1900)" to="(940,1900)"/>
+    <wire from="(760,1920)" to="(920,1920)"/>
+    <wire from="(760,1930)" to="(860,1930)"/>
+    <wire from="(760,1940)" to="(860,1940)"/>
+    <wire from="(760,1950)" to="(840,1950)"/>
+    <wire from="(760,1960)" to="(820,1960)"/>
+    <wire from="(760,740)" to="(760,940)"/>
+    <wire from="(760,940)" to="(760,1020)"/>
+    <wire from="(780,1150)" to="(780,1410)"/>
+    <wire from="(780,1410)" to="(780,1480)"/>
+    <wire from="(780,1480)" to="(780,1620)"/>
+    <wire from="(780,1620)" to="(780,2070)"/>
+    <wire from="(780,570)" to="(1140,570)"/>
+    <wire from="(780,570)" to="(780,1150)"/>
+    <wire from="(800,1540)" to="(800,2070)"/>
+    <wire from="(800,680)" to="(800,1540)"/>
+    <wire from="(820,1660)" to="(820,1960)"/>
+    <wire from="(820,1960)" to="(820,2070)"/>
+    <wire from="(820,410)" to="(820,1660)"/>
+    <wire from="(840,1000)" to="(840,1140)"/>
+    <wire from="(840,1140)" to="(840,1250)"/>
+    <wire from="(840,1250)" to="(840,1720)"/>
+    <wire from="(840,1720)" to="(840,1950)"/>
+    <wire from="(840,1950)" to="(840,2070)"/>
+    <wire from="(840,420)" to="(840,820)"/>
+    <wire from="(840,820)" to="(840,880)"/>
+    <wire from="(840,880)" to="(840,1000)"/>
+    <wire from="(860,1040)" to="(860,1070)"/>
+    <wire from="(860,1070)" to="(860,1130)"/>
+    <wire from="(860,1130)" to="(860,1200)"/>
+    <wire from="(860,1200)" to="(860,1930)"/>
+    <wire from="(860,1930)" to="(860,1940)"/>
+    <wire from="(860,1940)" to="(860,2020)"/>
+    <wire from="(860,2020)" to="(860,2070)"/>
+    <wire from="(860,430)" to="(860,810)"/>
+    <wire from="(860,810)" to="(860,910)"/>
+    <wire from="(860,910)" to="(860,990)"/>
+    <wire from="(860,990)" to="(860,1040)"/>
+    <wire from="(880,1640)" to="(880,1880)"/>
+    <wire from="(880,1880)" to="(880,2070)"/>
+    <wire from="(880,440)" to="(880,1640)"/>
+    <wire from="(900,1110)" to="(900,1700)"/>
+    <wire from="(900,1700)" to="(900,2070)"/>
+    <wire from="(900,450)" to="(900,790)"/>
+    <wire from="(900,790)" to="(900,900)"/>
+    <wire from="(900,900)" to="(900,970)"/>
+    <wire from="(900,970)" to="(900,1110)"/>
+    <wire from="(920,1050)" to="(920,1100)"/>
+    <wire from="(920,1100)" to="(920,1180)"/>
+    <wire from="(920,1180)" to="(920,1840)"/>
+    <wire from="(920,1840)" to="(920,1920)"/>
+    <wire from="(920,1920)" to="(920,2070)"/>
+    <wire from="(920,460)" to="(920,780)"/>
+    <wire from="(920,780)" to="(920,930)"/>
+    <wire from="(920,930)" to="(920,960)"/>
+    <wire from="(920,960)" to="(920,1050)"/>
+    <wire from="(940,1320)" to="(940,1400)"/>
+    <wire from="(940,1400)" to="(940,1470)"/>
+    <wire from="(940,1470)" to="(940,1530)"/>
+    <wire from="(940,1530)" to="(940,1690)"/>
+    <wire from="(940,1690)" to="(940,1800)"/>
+    <wire from="(940,1800)" to="(940,1900)"/>
+    <wire from="(940,1900)" to="(940,2070)"/>
+    <wire from="(940,480)" to="(1090,480)"/>
+    <wire from="(940,480)" to="(940,1320)"/>
+    <wire from="(960,1310)" to="(960,1390)"/>
+    <wire from="(960,1390)" to="(960,1460)"/>
+    <wire from="(960,1460)" to="(960,1520)"/>
+    <wire from="(960,1520)" to="(960,1710)"/>
+    <wire from="(960,1710)" to="(960,1810)"/>
+    <wire from="(960,1810)" to="(960,1890)"/>
+    <wire from="(960,1890)" to="(960,2070)"/>
+    <wire from="(960,490)" to="(1090,490)"/>
+    <wire from="(960,490)" to="(960,1310)"/>
+    <wire from="(980,1300)" to="(980,1380)"/>
+    <wire from="(980,1380)" to="(980,1450)"/>
+    <wire from="(980,1450)" to="(980,1510)"/>
+    <wire from="(980,1510)" to="(980,1730)"/>
+    <wire from="(980,1730)" to="(980,1830)"/>
+    <wire from="(980,1830)" to="(980,2070)"/>
+    <wire from="(980,500)" to="(1090,500)"/>
+    <wire from="(980,500)" to="(980,1300)"/>
   </circuit>
   <vhdl name="contest">--------------------------------------------------------------------------------&#13;
 -- Project :&#13;
