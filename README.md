@@ -14,6 +14,6 @@ For the World File, please check `/game/` to get the template. Each group should
 >
 > Minecraft™ is a trademark of Mojang AB. This project is not affiliated with, endorsed by, or associated with Mojang AB, Microsoft, or any of their subsidiaries.
 >
-> All screenshots, videos, and in-game builds shown here are fan-made creations, shared for educational and entertainment purposes only.
+> All screenshots, images, and in-game builds shown here are fan-made creations, shared for educational and entertainment purposes only.
 >
 > You may use, modify, or share this world save freely, but you may not sell it or represent it as an official Mojang/Microsoft product.
