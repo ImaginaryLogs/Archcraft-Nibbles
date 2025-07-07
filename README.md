@@ -7,7 +7,9 @@ A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
 For the World File, please check `/game/` to get the template. Each group should have received the specs outlining what to do.
  
 > [!warning]
-> This GitHub Repo is incomplete. It will be updated on a later date.
+> The instructions of SetUp is incomplete, it will be updated on a later date.
+> Students can already explore the World File if they want to.
+> It is recommended to use 1.20.4
 
 > [!warning]
 > This repository contains a Minecraft world save showcasing in-game computers and redstone builds.
