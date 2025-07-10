@@ -85,6 +85,89 @@ These are optional but highly recommended to improve FPS and reduce lag.
 | Sodium         | 0.5.8   | [Modrinth](https://modrinth.com/mod/sodium)        |
 | Sodium Extra   | 0.5.4   | [Modrinth](https://modrinth.com/mod/sodium-extra)  |
 
+## Academic Integrity
+
+### Permitted Activities
+- Reviewing redstone tutorials and basic logic components
+- Reusing simple redstone patterns (flip-flops, logic gates)
+
+### Prohibited Activities
+- Sharing world files or circuit designs between groups
+- Using command blocks or automation
+- Copying another group's implementation
+
+## Multiplayer
+If you are wish and plan to accomplish this project with you groupmates within Minecraft, you host the Minecraft world so others on the same Wi‑Fi or LAN can join. 
+
+Note that one of the mods, Axiom, are disabled in multiplayer play; please head to the Axiom discord and request to be whitelisted.
+
+The following are instructions on how to accomplish this.
+
+> [!warning]
+> Disclaimer: Use of Tailscale
+> This project includes optional instructions for using Tailscale, a third‑party networking tool, to enable virtual LAN gameplay for Minecraft.
+>
+> While Tailscale is a secure and widely used VPN service, installing and running it may trigger warnings or alerts from:
+>  - Corporate or school IT policies (if used on managed devices)
+>  - Antivirus or firewall software
+>  - Network monitoring or intrusion detection systems (IDS)
+>
+> Other applications may get affected by using a VPN, so please proceed with caution.
+
+### Steps for Tailscale “LAN” Server for Minecraft
+
+#### 1. Install Tailscale
+
+On every computer (host + clients), download and install Tailscale for your OS:
+
+Windows/macOS/Linux: https://tailscale.com/download
+
+Launch Tailscale and log in with the **same account** (or join the same Tailscale team/network).
+
+#### 2. Verify Your Tailscale IPs
+
+Open a terminal or Tailscale UI.
+
+Note each device’s Tailscale IP (usually in the 100.x.y.z range).
+
+Make sure you can ping between devices:
+```cmd
+ping 100.x.y.z   # replace with another player’s Tailscale IP
+```
+
+#### 3. Prepare the Minecraft World
+
+On the host machine, copy the world folder into …/.minecraft/saves/.
+
+Launch Minecraft 1.20.4 with Fabric + all required mods installed.
+
+#### 4. Open to LAN on the Host
+
+In Minecraft, load your world, and share your port in 25565.
+
+Press Esc → Open to LAN.
+
+Choose game mode & allow cheats if desired → Start LAN World.
+
+Note the port number shown, e.g.: `Local game hosted on port 25565`
+
+#### 5. Join via Tailscale IP
+On each client machine, launch Minecraft (same version + mods).
+
+Go to Multiplayer → Direct Connect.
+
+Enter:`<Host’s Tailscale IP>:<PORT>`
+
+Example:`100.101.102.103:50432`
+
+Click Join Server.
+
+### Troubleshooting Tips
+Firewall: Ensure the host’s firewall allows incoming TCP on the chosen port (default 25565 range and the LAN port).
+
+Mod Mismatch: Double‑check that everyone’s Fabric loader & mods exactly match (same versions).
+
+Tailscale ACLs: If you’re on a team network with ACLs, ensure all devices are allowed to connect to each other (or use an “exit node” configuration).
 
 ## Disclaimer
 
