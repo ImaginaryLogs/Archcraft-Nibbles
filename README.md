@@ -7,8 +7,6 @@
 A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
  
 > [!note]
-> The tools that may help you on this project is incomplete and will be accomplished in a later date.
-> Though students can already explore the World File if they want to.
 > It is recommended to use 1.20.4.
 
 # Set up
