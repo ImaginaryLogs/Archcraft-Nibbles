@@ -9,6 +9,9 @@ A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
 > [!note]
 > It is recommended to use 1.20.4.
 
+> [!important]
+> YouTube Recording to the Videos: https://www.youtube.com/playlist?list=PLdnTrCZr5VqXToGZzOzMa7h_MyH81vmxS
+
 # Set up
 
 The Minecraft world file can be found in the /game/ directory of this repository. Please run this on the Minecraft launcher on `1.20.4`.
