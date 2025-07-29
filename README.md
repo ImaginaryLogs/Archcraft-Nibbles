@@ -9,7 +9,7 @@ A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
 > [!note]
 > It is recommended to use 1.20.4.
 
-> [!important links]
+> [!important]
 > YouTube Recording to the Videos: https://www.youtube.com/playlist?list=PLdnTrCZr5VqXToGZzOzMa7h_MyH81vmxS
 
 > YouTube Recording on how to Migrate to the New Template World and use the Memory Loader: https://youtu.be/Q0-cmD1smA8
