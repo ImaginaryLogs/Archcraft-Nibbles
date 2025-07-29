@@ -9,14 +9,20 @@ A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
 > [!note]
 > It is recommended to use 1.20.4.
 
-> [!important]
-> YouTube Recording to the Videos: https://www.youtube.com/playlist?list=PLdnTrCZr5VqXToGZzOzMa7h_MyH81vmxS
+## 📌 Important Resources
 
-> YouTube Recording on how to Migrate to the New Template World and use the Memory Loader: https://youtu.be/Q0-cmD1smA8
+- 📺 **YouTube Recording of ArchCraft2**  
+  [Watch on YouTube](https://www.youtube.com/playlist?list=PLdnTrCZr5VqXToGZzOzMa7h_MyH81vmxS)
 
-> QNA Forms for the Case Study: https://docs.google.com/forms/d/e/1FAIpQLScxVHLVCplMMWfUylVUqygvpKHi87U9MPOjk3Z809DGD9sUwQ/viewform?usp=header
+- 🎥 **Migration to New Template World & Memory Loader**  
+  [Watch the Tutorial](https://youtu.be/Q0-cmD1smA8)
 
-> QNA Document for the Case Study: https://docs.google.com/document/d/1V3iqKA7agZ_zVtIzLi84Bce65F6dga6Kiv6U1Fvi1vY/edit?usp=sharing
+- 📄 **Q&A Forms for the Case Study**  
+  [Fill Out the Form](https://docs.google.com/forms/d/e/1FAIpQLScxVHLVCplMMWfUylVUqygvpKHi87U9MPOjk3Z809DGD9sUwQ/viewform?usp=header)
+
+- 📝 **Q&A Document for the Case Study**  
+  [View the Document](https://docs.google.com/document/d/1V3iqKA7agZ_zVtIzLi84Bce65F6dga6Kiv6U1Fvi1vY/edit?usp=sharing)
+
 
 # Set up
 
