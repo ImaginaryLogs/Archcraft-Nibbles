@@ -12,6 +12,8 @@ A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
 > [!important]
 > YouTube Recording to the Videos: https://www.youtube.com/playlist?list=PLdnTrCZr5VqXToGZzOzMa7h_MyH81vmxS
 > YouTube Recording on how to Migrate to the New Template World and use the Memory Loader: https://youtu.be/Q0-cmD1smA8
+> QNA Forms for the Case Study: https://docs.google.com/forms/d/e/1FAIpQLScxVHLVCplMMWfUylVUqygvpKHi87U9MPOjk3Z809DGD9sUwQ/viewform?usp=header
+> QNA Document for the Case Study: https://docs.google.com/document/d/1V3iqKA7agZ_zVtIzLi84Bce65F6dga6Kiv6U1Fvi1vY/edit?usp=sharing
 
 # Set up
 
