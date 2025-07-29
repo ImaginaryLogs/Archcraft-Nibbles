@@ -9,6 +9,9 @@ A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
 > [!note]
 > It is recommended to use 1.20.4.
 
+> [!important]
+> Change to the New Template World, refer to the guide below
+
 ## 📌 Important Resources
 
 - 📺 **YouTube Recording of ArchCraft2**  
