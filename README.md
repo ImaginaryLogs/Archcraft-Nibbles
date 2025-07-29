@@ -9,7 +9,7 @@ A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
 > [!note]
 > It is recommended to use 1.20.4.
 
-> [!important links]
+> [!important links | Youtube Recording]
 > YouTube Recording to the Videos: https://www.youtube.com/playlist?list=PLdnTrCZr5VqXToGZzOzMa7h_MyH81vmxS
 
 > [!important links]
@@ -18,7 +18,7 @@ A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
 > [!important links]
 > QNA Forms for the Case Study: https://docs.google.com/forms/d/e/1FAIpQLScxVHLVCplMMWfUylVUqygvpKHi87U9MPOjk3Z809DGD9sUwQ/viewform?usp=header
 
-> > [!important links]
+> [!important links]
 > QNA Document for the Case Study: https://docs.google.com/document/d/1V3iqKA7agZ_zVtIzLi84Bce65F6dga6Kiv6U1Fvi1vY/edit?usp=sharing
 
 # Set up
