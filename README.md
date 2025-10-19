@@ -1,4 +1,4 @@
-![title](./README/Title.png)
+![title](./README/Title2.png)
 
 ![Static Badge](https://img.shields.io/badge/AY2425--T3-CSARCH2-red)
 
