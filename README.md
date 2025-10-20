@@ -26,6 +26,8 @@ A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
 - 📝 **Q&A Document for the Case Study**  
   [View the Document](https://docs.google.com/document/d/1V3iqKA7agZ_zVtIzLi84Bce65F6dga6Kiv6U1Fvi1vY/edit?usp=sharing)
 
+  - 📝 **Microcode Document for the Case Study**  
+  [View the Document](https://docs.google.com/spreadsheets/d/1nXDbPkBSaaQgP0F9nRp57YK5BtLBGyWU8lGllRv6LNw/edit?usp=sharing)
 
 # Set up
 
