@@ -50,6 +50,7 @@ Upon completion, students will be able to:
   - **Execute:** 5 cycles (student microcode implementation)
 
 ### Control Signals
+
 The implementation uses a comprehensive set of microcode control signals including:
 
 | **Category** | **Signal** | **Description** |
@@ -92,6 +93,7 @@ The implementation uses a comprehensive set of microcode control signals includi
 |  | **SPout** | Outputs data from the Stack Pointer Register *(modifiable if needed)* |
 
 ## Core Mods
+
 These are required or highly recommended for core functionality and quality of life.
 
 | Name                      | Version  | Link                                                       |
@@ -144,9 +146,10 @@ The following are instructions on how to accomplish this.
 > This project includes optional instructions for using Tailscale, a third‑party networking tool, to enable virtual LAN gameplay for Minecraft.
 >
 > While Tailscale is a secure and widely used VPN service, installing and running it may trigger warnings or alerts from:
->  - Corporate or school IT policies (if used on managed devices)
->  - Antivirus or firewall software
->  - Network monitoring or intrusion detection systems (IDS)
+>
+> - Corporate or school IT policies (if used on managed devices)
+> - Antivirus or firewall software
+> - Network monitoring or intrusion detection systems (IDS)
 >
 > Other applications may get affected by using a VPN, so please proceed with caution.
 
@@ -156,7 +159,7 @@ The following are instructions on how to accomplish this.
 
 On every computer (host + clients), download and install Tailscale for your OS:
 
-Windows/macOS/Linux: https://tailscale.com/download
+Windows/macOS/Linux: <https://tailscale.com/download>
 
 Launch Tailscale and log in with the **same account** (or join the same Tailscale team/network).
 
@@ -167,6 +170,7 @@ Open a terminal or Tailscale UI.
 Note each device’s Tailscale IP (usually in the 100.x.y.z range).
 
 Make sure you can ping between devices:
+
 ```cmd
 ping 100.x.y.z   # replace with another player’s Tailscale IP
 ```
@@ -188,6 +192,7 @@ Choose game mode & allow cheats if desired → Start LAN World.
 Note the port number shown, e.g.: `Local game hosted on port 25565`
 
 #### 5. Join via Tailscale IP
+
 On each client machine, launch Minecraft (same version + mods).
 
 Go to Multiplayer → Direct Connect.
@@ -199,6 +204,7 @@ Example:`100.101.102.103:50432`
 Click Join Server.
 
 ### Troubleshooting Tips
+
 Firewall: Ensure the host’s firewall allows incoming TCP on the chosen port (default 25565 range and the LAN port).
 
 Mod Mismatch: Double‑check that everyone’s Fabric loader & mods exactly match (same versions).
