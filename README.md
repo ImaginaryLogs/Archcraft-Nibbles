@@ -17,7 +17,7 @@ This project emphasizes microprogramming, control sequencing, and arithmetic uni
 [View the Document](https://docs.google.com/spreadsheets/d/1nXDbPkBSaaQgP0F9nRp57YK5BtLBGyWU8lGllRv6LNw/edit?usp=sharing)
 
 - **Recorded Modules for the Case Study (To Be Updated on 10/21/2025 20:00)**  
-[View the Document](https://drive.google.com/drive/folders/1pUc39AP6CWDvkGEDwWY4HKLeSmefX0GI?usp=sharing)
+[View the Recorded Modules](https://drive.google.com/drive/folders/1pUc39AP6CWDvkGEDwWY4HKLeSmefX0GI?usp=sharing)
 
 # Set up
 
