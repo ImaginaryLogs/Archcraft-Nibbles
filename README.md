@@ -1,65 +1,95 @@
-![title](./README/Title2.png)
+![title](./README/Title_2.png)
 
 ![Static Badge](https://img.shields.io/badge/AY2425--T3-CSARCH2-red)
 
 **CSARCH2 Case Study 2: Microprogramming in Minecraft**
 
-A 16-bit computer simulated on logisim evolution and simulated in Minecraft.
- 
+A 16-bit CPU implemented through Logisim Evolution and simulated via Redstone circuitry in Minecraft. 
+
+This project emphasizes microprogramming, control sequencing, and arithmetic unit design at the hardware abstraction level.
+
 > [!note]
-> It is recommended to use 1.20.4.
+> Recommended Minecraft version: **1.20.4**
 
-> [!important]
-> Change to the New Template World, refer to the guide below
+## Important Resources
 
-## 📌 Important Resources
-
-- 📝 **Microcode Document for the Case Study**  
+- **Microcode Document for the Case Study**  
 [View the Document](https://docs.google.com/spreadsheets/d/1nXDbPkBSaaQgP0F9nRp57YK5BtLBGyWU8lGllRv6LNw/edit?usp=sharing)
 
 # Set up
 
-The Minecraft world file can be found in the /game/ directory of this repository. Please run this on the Minecraft launcher on `1.20.4`.
+The Minecraft world is located in the `/game/` directory of this repository.  
+Run it using the Minecraft Launcher with **Fabric 1.20.4** installed.
 
-Each group should have already received the project specifications outlining their tasks.
+Each group has a unique variant with project specifications outlining their tasks.
 
-Though not required, you can enhance your building and gameplay experience, it is recommended to install the following Fabric mods, all available on Modrinth. 
-
+Optional Fabric mods can be installed to enhance your building and gameplay experience, it is recommended to install the following Fabric mods, all available on Modrinth. 
 
 ## Project Overview
 
-This case study focuses on implementing a partial 16-bit CPU with emphasis on:
-- **Arithmetic Logic Unit (ALU)** with custom operations
-- **Control Unit** with microprogram control signals
-- **Register Controller** for data transfer operations
-- **Instruction execution** without control flow operations
+This case study focuses on implementing a partial 16-bit CPU with an emphasis on:
+- **Arithmetic Logic Unit (ALU)** with standard and custom operations.
+- **Control Unit** implementing microinstruction-based execution.
+- **Microprogrammed Execution** of algorithms.
 
-Students build and connect redstone circuits to simulate real CPU behavior, gaining practical understanding of how microinstructions coordinate different CPU components.
+Each group must design their own microcode logic and demonstrate correct data flow and control sequencing. This will allow them to gain practical understanding of how microinstructions coordinate different CPU components.
 
 ## Learning Objectives
 
 Upon completion, students will be able to:
-- Explain how microinstructions control data flow and component interaction within a CPU
-- Design and implement a functional ALU using redstone logic components
-- Simulate instruction execution based on a predefined opcode set
-- Evaluate the effectiveness of gamified platforms in understanding complex architectural concepts
-
+- Explain how microinstructions control data flow and component interaction within a CPU.
+- Emulate and understand how functions and control transfer works within the computer.
+- Simulate instruction execution based on a predefined opcode set.
+- Evaluate the effectiveness of using gamified platforms like Minecraft in supporting the understanding of complex concepts in computer architecture.
 
 ## Project Structure
 
 ### CPU Cycle Implementation
-- **8 CPU cycles per instruction** (modified for Minecraft limitations)
-- **Fetch & Decode**: 3 cycles (pre-implemented)
-- **Execute**: 5 cycles (student implementation required)
+- **8 cycles per instruction**
+  - **Fetch + Decode:** 3 cycles (pre-implemented)
+  - **Execute:** 5 cycles (student microcode implementation)
 
 ### Control Signals
 The implementation uses a comprehensive set of microcode control signals including:
-- **Instruction Register**: IRin, IRDFout, IRAFout, SELECT
-- **ALU Operations**: SELECT Y, SELECT 4, ALU OP0-OP2, Zin, Zout
-- **Memory Operations**: MARin, MARout, MDRin, MDRout, READ, WRITE
-- **Register Operations**: REGin, REGout, SWAP OUT
-- **Program Counter**: PCin, PCout, RESET PC
 
+| **Category** | **Signal** | **Description** |
+|---------------|-------------|-----------------|
+| **Instruction Register** | **IRin** | Inputs into the Instruction Register to decode |
+|  | **IRDFout** | Outputs the Data Field from the decoded instruction |
+|  | **IRAFout** | Outputs the Address Field from the decoded instruction |
+|  | **SEL OTR** | Selects either the 2nd and 3rd nibble or the 3rd and 4th nibble from the IR |
+| **Arithmetic Logic Unit (ALU)** | **SELECT Y** | Selects the Y Register for ALU operations |
+|  | **SELECT 4** | Selects constant value 4 as ALU input |
+|  | **Yin** | Inputs into the Y Register for ALU computation |
+|  | **SET C** | Sets the Carry Flag to 1 |
+|  | **ALU MUL** | Performs multiplication (X × Y) |
+|  | **ALU DIV** | Performs division (X ÷ Y) |
+|  | **ALU ADD** | Performs addition (X + Y) |
+|  | **ALU SUB** | Performs subtraction (X − Y) |
+|  | **ALU AND** | Performs bitwise AND (X ∧ Y) |
+|  | **ALU OR** | Performs bitwise OR (X ∨ Y) |
+|  | **ALU XOR** | Performs bitwise XOR (X ⊕ Y) |
+|  | **ALU NOT** | Performs bitwise NOT (¬X) |
+|  | **Zin** | Inputs the ALU result into the Z Register |
+|  | **Z1out** | Outputs lower 16 bits of the Z Register |
+|  | **Z2out** | Outputs upper 16 bits of the Z Register |
+|  | **ENABLE FLAG** | Enables or updates the ALU status flags |
+|  | **WAFC** | Wait for ALU Function Complete signal |
+| **Main Memory** | **MARin** | Inputs to the Memory Address Register |
+|  | **MARout** | Outputs the Memory Address Register contents |
+|  | **MDRin** | Inputs data to the Memory Data Register |
+|  | **MDRout** | Outputs data from the Memory Data Register |
+|  | **READ** | Reads data from address in MAR into MDR |
+|  | **WRITE** | Writes data from MDR into address in MAR |
+|  | **WMFC** | Wait for Memory Function Complete signal |
+| **Program Counter** | **PCin** | Inputs address into the Program Counter |
+|  | **PCout** | Outputs the current instruction address |
+|  | **RESET PC** | Resets the Program Counter to 0 |
+| **Registers** | **REGAin** | Inputs data into Register A |
+|  | **REGAout** | Outputs data from Register A |
+|  | **REGBout** | Outputs data from Register B |
+|  | **SPin** | Inputs data into the Stack Pointer Register *(modifiable if needed)* |
+|  | **SPout** | Outputs data from the Stack Pointer Register *(modifiable if needed)* |
 
 ## Core Mods
 These are required or highly recommended for core functionality and quality of life.
@@ -67,12 +97,10 @@ These are required or highly recommended for core functionality and quality of l
 | Name                      | Version  | Link                                                       |
 | ------------------------- | -------- | ---------------------------------------------------------- |
 | Axiom                     | 4.9.1    | [Modrinth](https://modrinth.com/mod/axiom)                 |
-| AppleSkin                 | 2.5.1    | [Modrinth](https://modrinth.com/mod/appleskin)             |
 | Bobby                     | 5.1.0    | [Modrinth](https://modrinth.com/mod/bobby)                 |
 | Cloth Config              | 13.0.138 | [Modrinth](https://modrinth.com/mod/cloth-config)          |
 | Fabric API                | 0.97.2   | [Modrinth](https://modrinth.com/mod/fabric-api)            |
 | Mod Menu                  | 9.2.0    | [Modrinth](https://modrinth.com/mod/modmenu)               |
-| Not Enough Animations     | 1.9.3    | [Modrinth](https://modrinth.com/mod/not-enough-animations) |
 | Xaero's Minimap           | 25.2.6   | [Modrinth](https://modrinth.com/mod/xaeros-minimap)        |
 | Xaero's World Map         | 1.39.9   | [Modrinth](https://modrinth.com/mod/xaeros-world-map)      |
 | Yet Another Config Lib v3 | 3.6.6    | [Modrinth](https://modrinth.com/mod/yacl)                  |
@@ -94,16 +122,18 @@ These are optional but highly recommended to improve FPS and reduce lag.
 ## Academic Integrity
 
 ### Permitted Activities
-- Reviewing redstone tutorials and basic logic components
-- Reusing simple redstone patterns (flip-flops, logic gates)
+- Reviewing redstone tutorials and online references to learn basic redstone logic and component behavior.
+- Reusing simple redstone components or design patterns (e.g., flip-flops, logic gates) as long as they are not part of an entire working CPU or full subsystem.
+- Using SASM or other IDEs designed for assembly languages to test program functionality. 
 
 ### Prohibited Activities
-- Sharing world files or circuit designs between groups
-- Using command blocks or automation
+- Sharing world files, redstone circuits, algorithm implementations, or opcode implementations between groups.
+- Replicating another group’s exact design, even if obtained through informal means (e.g., screenshots, videos, word-of-mouth).
 - Copying another group's implementation
+- Using command blocks or any form of automation to manipulate or alter circuitry in a way that bypasses the logic design (e.g., teleporting data, triggering hidden commands).
 
 ## Multiplayer
-If you are wish and plan to accomplish this project with you groupmates within Minecraft, you host the Minecraft world so others on the same Wi‑Fi or LAN can join. 
+Groups may work collaboratively using LAN or **Tailscale** for remote access.
 
 Note that one of the mods, Axiom, are disabled in multiplayer play; please head to the Axiom discord and request to be whitelisted.
 
