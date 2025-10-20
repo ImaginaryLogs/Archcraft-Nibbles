@@ -13,7 +13,7 @@ This project emphasizes microprogramming, control sequencing, and arithmetic uni
 
 ## Important Resources
 
-- **Microcode Document for the Case Study**  
+- **Microcode Document Template for the Case Study**  
 [View the Document](https://docs.google.com/spreadsheets/d/1nXDbPkBSaaQgP0F9nRp57YK5BtLBGyWU8lGllRv6LNw/edit?usp=sharing)
 
 # Set up
