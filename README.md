@@ -1,6 +1,6 @@
 ![title](./README/Title_2.png)
 
-![Static Badge](https://img.shields.io/badge/AY2425--T3-CSARCH2-red)
+AY25-26 T1 CSARCH2
 
 **CSARCH2 Case Study 2: Microprogramming in Minecraft**
 
@@ -15,6 +15,9 @@ This project emphasizes microprogramming, control sequencing, and arithmetic uni
 
 - **Microcode Document Template for the Case Study**  
 [View the Document](https://docs.google.com/spreadsheets/d/1nXDbPkBSaaQgP0F9nRp57YK5BtLBGyWU8lGllRv6LNw/edit?usp=sharing)
+
+- **Recorded Modules for the Case Study (To Be Updated on 10/21/2025 20:00)**  
+[View the Document](https://drive.google.com/drive/folders/1pUc39AP6CWDvkGEDwWY4HKLeSmefX0GI?usp=sharing)
 
 # Set up
 
