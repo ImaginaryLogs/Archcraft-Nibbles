@@ -19,6 +19,10 @@ This project emphasizes microprogramming, control sequencing, and arithmetic uni
 - **Recorded Modules for the Case Study (To Be Updated on 10/21/2025 20:00)**  
 [View the Recorded Modules](https://drive.google.com/drive/folders/1pUc39AP6CWDvkGEDwWY4HKLeSmefX0GI?usp=sharing)
 
+- **Discord Link for the Discord Server of the Project**  
+[Join the Discord Server](https://discord.gg/EjbYU7Px6E)
+
+
 # Set up
 
 The Minecraft world is located in the `/game/` directory of this repository.  
